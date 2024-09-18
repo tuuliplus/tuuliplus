@@ -24,8 +24,8 @@
 .footer a:hover,
 .footer a:focus,
 .footer a:active {
-  color: #a0522d;
-  border-bottom: 2px solid #a0522d;
+  color: #0000ff; /* Blue */
+  border-bottom: 2px solid #0000ff; /* Blue */
   transition: color 0.15s ease;
 }
 
@@ -62,15 +62,17 @@
   text-decoration: none;
   border: 2px solid #f5f5f5;
   border-radius: 10px;
-  transition: color 0.15s ease, border-color 0.15s ease;
+  transition:
+    color 0.15s ease,
+    border-color 0.15s ease;
   width: 300px;
 }
 
 .card:hover,
 .card:focus,
 .card:active {
-  color: #a0522d;
-  border-color: #a0522d;
+  color: #0000ff; /* Blue */
+  border-color: #0000ff; /* Blue */
 }
 
 .card h2 {
@@ -102,7 +104,7 @@
   .footer a:hover,
   .footer a:focus,
   .footer a:active {
-    color: #f4a460;
-    border-color: #f4a460;
+    color: #87ceeb; /* SkyBlue */
+    border-color: #87ceeb; /* SkyBlue */
   }
 }

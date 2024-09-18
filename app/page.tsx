@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 export const metadata: Metadata = {
   title: 'Tuuli+',
-  description: 'Your help with the technical side of Web Analytics and SEO.',
+  description: 'Solutions in a breeze.',
   icons: {
     icon: '/favicon.ico',
     apple: '/apple-touch-icon.png',
