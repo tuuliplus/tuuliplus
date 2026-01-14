@@ -28,9 +28,6 @@ const gtmUrl = tagManagerArgs
   ? `https://www.googletagmanager.com/gtm.js?id=${tagManagerArgs.gtmId}&gtm_auth=${tagManagerArgs.auth}&gtm_preview=${tagManagerArgs.preview}&gtm_cookies_win=x`
   : undefined
 
-const simpleAnalyticsUrl = 'https://scripts.simpleanalyticscdn.com/latest.js'
-const simpleAnalyticsDisregardDnt = 'true'
-
 export default function RootLayout({
   children,
 }: {
@@ -40,12 +37,6 @@ export default function RootLayout({
     <html lang="en">
       <body>
         {children}
-        <Script
-          data-collect-dnt={simpleAnalyticsDisregardDnt}
-          async
-          defer
-          src={simpleAnalyticsUrl}
-        />
         <Script
           async
           src={gtmUrl}
