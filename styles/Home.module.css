@@ -24,9 +24,16 @@
 .footer a:hover,
 .footer a:focus,
 .footer a:active {
-  color: #0000ff; /* Blue */
-  border-bottom: 2px solid #0000ff; /* Blue */
+  color: #0000ff;
+  /* Blue */
+  border-bottom: 2px solid #0000ff;
+  /* Blue */
   transition: color 0.15s ease;
+}
+
+.matomoPartnerBadge img {
+  width: 160px;
+  height: auto;
 }
 
 .title {
@@ -71,8 +78,10 @@
 .card:hover,
 .card:focus,
 .card:active {
-  color: #0000ff; /* Blue */
-  border-color: #0000ff; /* Blue */
+  color: #0000ff;
+  /* Blue */
+  border-color: #0000ff;
+  /* Blue */
 }
 
 .card h2 {
@@ -86,25 +95,36 @@
   line-height: 1.5;
 }
 
+@media (min-width: 601px) {
+  .matomoPartnerBadge {
+    margin-inline: 1rem;
+  }
+}
+
 @media (max-width: 600px) {
   .grid {
     width: 100%;
     flex-direction: column;
   }
+
   .footer {
     flex-direction: column;
     align-items: flex-start;
   }
+
 }
 
 @media (prefers-color-scheme: dark) {
+
   .card:hover,
   .card:focus,
   .card:active,
   .footer a:hover,
   .footer a:focus,
   .footer a:active {
-    color: #87ceeb; /* SkyBlue */
-    border-color: #87ceeb; /* SkyBlue */
+    color: #87ceeb;
+    /* SkyBlue */
+    border-color: #87ceeb;
+    /* SkyBlue */
   }
 }

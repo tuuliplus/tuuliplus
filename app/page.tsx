@@ -54,6 +54,17 @@ export default function Page() {
           <br />
           Turku, Finland
         </p>
+        <picture className={styles.matomoPartnerBadge}>
+          <source
+            srcSet="/Partner-Badges_Implementation-Partner_white.png"
+            media="(prefers-color-scheme: dark)"
+          />
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src="/Partner-Badges_Implementation-Partner_black.png"
+            alt="Matomo Implementation Partner"
+          />
+        </picture>
         <p>
           Aleksi Johansson
           <br />
